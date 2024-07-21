@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "uuid": "aed922d6-5f64-43ce-8b98-efa8e4e288d3",
+    "name": "testplayer",
+    "created": "2024-07-21 17:54:52 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]

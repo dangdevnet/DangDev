@@ -1,0 +1,23 @@
+# Thank you for using ShutDown :)
+# This file contains all configurable messages of ShutDown. 
+# %s% stands for seconds/the countdown \n is used to go to a new line
+
+console:
+  prefix: '&7[&cShutDown&7] '
+chat:
+  prefix: '&7[&bServer&7] '
+  broadcastmsg: '&bServer ShutDown in: &c%s%'
+  premessage: '&bThe Server is stopping in&c %s% &bseconds!'
+  kickmsg: "&bYOURSERVER.COM \n &cYOU GOT KICKED FROM THE SERVER! \n &bREASON: &cSERVER\
+    \ STOP!"
+  stoppingin: Server is stopping in %s% seconds
+  stoppingnow: Server is stopping now
+  configreloaded: The config was reloaded
+  numbererror: The first argument has to be a number
+  terminating: Terminating ShutDown
+  canceled: '&aThe ShutDown was canceled!'
+  version: 'The current version: %ver% Checking for Update: %check%'
+  version-cooldown: '&c/shutdown version has a built in cooldown to prevent SpigotMC
+    from rate limiting'
+command:
+  noperm: '&cYou have no permission to perform this Command!'

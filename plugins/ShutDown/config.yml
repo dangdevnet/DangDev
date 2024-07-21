@@ -1,0 +1,14 @@
+# Thank you for using ShutDown :)
+# This file contains the settings of ShutDown.
+
+settings:
+  permission: server.shutdown
+  updateChecker: true
+  default_timer: 10
+  debug: false
+  auto_shutdown: false
+  auto_shutdown_time: 00:00
+  last_auto_shutdown: MM-dd-yyyy
+  metrics: true
+  autoupdate: true
+  salt: ofM5K
