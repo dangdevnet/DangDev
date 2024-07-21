@@ -23,10 +23,6 @@ jobs:
 
     - name: Configure Git
       run: |
-        git config --global user.name "DangDev"
-        git config --global user.email "dream858vip@gmail.com"
-        git branch main
-        git checkout main
         git add .
         git commit -m "sync"
         git push https://$TOKEN@github.com/dangdevnet/DangDev main
