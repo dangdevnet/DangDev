@@ -1212,6 +1212,8 @@
       "minecraft:cave_spider": "2024-07-19 14:42:31 +0000",
       "minecraft:skeleton": "2024-07-14 02:50:04 +0000",
       "minecraft:zombified_piglin": "2024-07-21 20:32:16 +0000",
+      "minecraft:enderman": "2024-07-22 17:02:27 +0000",
+      "minecraft:witch": "2024-07-22 17:20:57 +0000",
       "minecraft:spider": "2024-07-14 02:49:54 +0000",
       "minecraft:zombie": "2024-07-14 02:50:44 +0000",
       "minecraft:creeper": "2024-07-18 19:49:51 +0000",
@@ -2327,7 +2329,8 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:nether_wastes": "2024-07-21 08:26:30 +0000",
-      "minecraft:soul_sand_valley": "2024-07-21 08:25:51 +0000"
+      "minecraft:soul_sand_valley": "2024-07-21 08:25:51 +0000",
+      "minecraft:basalt_deltas": "2024-07-22 16:17:00 +0000"
     },
     "done": false
   },
@@ -2593,6 +2596,42 @@
   "minecraft:recipes/decorations/anvil": {
     "criteria": {
       "has_iron_block": "2024-07-21 22:21:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2024-07-22 16:41:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2024-07-22 16:41:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2024-07-22 16:41:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2024-07-22 17:01:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2024-07-22 17:01:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2024-07-22 17:01:23 +0000"
     },
     "done": true
   },
