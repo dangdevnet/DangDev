@@ -7,14 +7,23 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:old_growth_birch_forest": "2024-07-19 15:16:55 +0000",
+      "minecraft:dark_forest": "2024-07-23 16:41:40 +0000",
       "minecraft:forest": "2024-07-14 01:52:45 +0000",
       "minecraft:taiga": "2024-07-21 20:54:47 +0000",
-      "minecraft:cherry_grove": "2024-07-14 02:20:12 +0000",
+      "minecraft:mangrove_swamp": "2024-07-23 16:54:20 +0000",
+      "minecraft:sparse_jungle": "2024-07-23 16:53:32 +0000",
       "minecraft:river": "2024-07-14 02:12:39 +0000",
+      "minecraft:dripstone_caves": "2024-07-14 02:37:23 +0000",
+      "minecraft:old_growth_birch_forest": "2024-07-19 15:16:55 +0000",
+      "minecraft:windswept_forest": "2024-07-23 16:43:10 +0000",
+      "minecraft:deep_dark": "2024-07-23 17:45:36 +0000",
+      "minecraft:cherry_grove": "2024-07-14 02:20:12 +0000",
+      "minecraft:sunflower_plains": "2024-07-23 15:27:51 +0000",
+      "minecraft:swamp": "2024-07-23 16:43:12 +0000",
       "minecraft:meadow": "2024-07-19 15:48:54 +0000",
       "minecraft:birch_forest": "2024-07-19 15:17:29 +0000",
-      "minecraft:dripstone_caves": "2024-07-14 02:37:23 +0000",
+      "minecraft:savanna": "2024-07-23 16:59:37 +0000",
+      "minecraft:bamboo_jungle": "2024-07-23 16:53:29 +0000",
       "minecraft:plains": "2024-07-14 02:16:30 +0000"
     },
     "done": false
@@ -823,6 +832,7 @@
       "apple": "2024-07-19 13:17:54 +0000",
       "bread": "2024-07-20 08:13:58 +0000",
       "cooked_chicken": "2024-07-19 14:50:29 +0000",
+      "rotten_flesh": "2024-07-23 15:11:51 +0000",
       "cooked_mutton": "2024-07-14 03:02:32 +0000",
       "cooked_beef": "2024-07-19 15:23:18 +0000"
     },
@@ -1210,18 +1220,22 @@
     "criteria": {
       "minecraft:pillager": "2024-07-21 07:23:53 +0000",
       "minecraft:skeleton": "2024-07-14 02:50:04 +0000",
+      "minecraft:phantom": "2024-07-23 17:23:25 +0000",
       "minecraft:zombified_piglin": "2024-07-21 20:32:16 +0000",
       "minecraft:witch": "2024-07-22 17:20:57 +0000",
       "minecraft:ravager": "2024-07-22 20:11:24 +0000",
       "minecraft:cave_spider": "2024-07-19 14:42:31 +0000",
       "minecraft:vindicator": "2024-07-22 19:52:00 +0000",
+      "minecraft:breeze": "2024-07-23 15:15:46 +0000",
       "minecraft:enderman": "2024-07-22 17:02:27 +0000",
+      "minecraft:silverfish": "2024-07-23 17:47:03 +0000",
       "minecraft:spider": "2024-07-14 02:49:54 +0000",
       "minecraft:zombie": "2024-07-14 02:50:44 +0000",
       "minecraft:creeper": "2024-07-18 19:49:51 +0000",
       "minecraft:drowned": "2024-07-21 07:58:38 +0000",
       "minecraft:zombie_villager": "2024-07-21 07:11:29 +0000",
-      "minecraft:evoker": "2024-07-22 20:09:06 +0000"
+      "minecraft:evoker": "2024-07-22 20:09:06 +0000",
+      "minecraft:slime": "2024-07-23 17:44:51 +0000"
     },
     "done": false
   },
@@ -2671,6 +2685,264 @@
   "minecraft:adventure/hero_of_the_village": {
     "criteria": {
       "hero_of_the_village": "2024-07-22 20:11:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2024-07-23 14:44:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "criteria": {
+      "minecraft_trials_edition": "2024-07-23 15:12:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2024-07-23 15:14:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wind_charge": {
+    "criteria": {
+      "has_breeze_rod": "2024-07-23 15:15:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/mace": {
+    "criteria": {
+      "has_breeze_rod": "2024-07-23 15:15:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/under_lock_and_key": {
+    "criteria": {
+      "under_lock_and_key": "2024-07-23 15:18:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2024-07-23 15:26:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2024-07-23 15:26:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs": {
+    "criteria": {
+      "has_tuff_bricks": "2024-07-23 15:26:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2024-07-23 15:26:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2024-07-23 15:26:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall": {
+    "criteria": {
+      "has_tuff_bricks": "2024-07-23 15:26:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab": {
+    "criteria": {
+      "has_tuff_bricks": "2024-07-23 15:26:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2024-07-23 15:27:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2024-07-23 15:27:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2024-07-23 16:16:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2024-07-23 17:44:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2024-07-23 17:44:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2024-07-23 17:44:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2024-07-23 17:54:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2024-07-23 17:57:12 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2024-07-23 17:57:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2024-07-23 18:02:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2024-07-23 18:02:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_from_waxed_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2024-07-23 18:06:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2024-07-23 18:06:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_grate": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2024-07-23 18:06:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2024-07-23 18:06:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab_from_waxed_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2024-07-23 18:06:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/waxed_oxidized_copper_bulb": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2024-07-23 18:06:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_chiseled_copper_from_waxed_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2024-07-23 18:06:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_grate_from_waxed_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2024-07-23 18:06:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2024-07-23 18:11:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2024-07-23 18:11:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_slab": {
+    "criteria": {
+      "has_planks": "2024-07-23 19:11:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-07-23 19:11:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_sign": {
+    "criteria": {
+      "has_planks": "2024-07-23 19:11:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-07-23 19:11:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_fence": {
+    "criteria": {
+      "has_planks": "2024-07-23 19:11:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_stairs": {
+    "criteria": {
+      "has_planks": "2024-07-23 19:11:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-07-23 19:11:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_button": {
+    "criteria": {
+      "has_planks": "2024-07-23 19:11:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_door": {
+    "criteria": {
+      "has_planks": "2024-07-23 19:11:05 +0000"
     },
     "done": true
   },

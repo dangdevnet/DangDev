@@ -4,5 +4,11 @@
     "name": "mnhaat113",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "c0634c33-e6c6-3980-a388-cd4caef19bc0",
+    "name": "HaiDang",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
