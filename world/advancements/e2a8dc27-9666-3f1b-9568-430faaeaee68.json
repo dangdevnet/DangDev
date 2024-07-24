@@ -7,17 +7,21 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:old_growth_birch_forest": "2024-07-19 15:22:42 +0000",
+      "minecraft:flower_forest": "2024-07-24 08:26:36 +0000",
+      "minecraft:beach": "2024-07-24 06:00:36 +0000",
+      "minecraft:dark_forest": "2024-07-24 05:56:40 +0000",
       "minecraft:forest": "2024-07-14 02:08:40 +0000",
       "minecraft:taiga": "2024-07-23 18:43:40 +0000",
+      "minecraft:river": "2024-07-14 02:13:04 +0000",
+      "minecraft:dripstone_caves": "2024-07-14 02:36:53 +0000",
+      "minecraft:frozen_peaks": "2024-07-24 02:19:46 +0000",
+      "minecraft:old_growth_birch_forest": "2024-07-19 15:22:42 +0000",
       "minecraft:deep_dark": "2024-07-23 06:24:59 +0000",
       "minecraft:cherry_grove": "2024-07-20 07:54:13 +0000",
       "minecraft:sunflower_plains": "2024-07-23 15:14:19 +0000",
-      "minecraft:river": "2024-07-14 02:13:04 +0000",
       "minecraft:grove": "2024-07-24 02:20:51 +0000",
       "minecraft:meadow": "2024-07-19 16:01:42 +0000",
-      "minecraft:dripstone_caves": "2024-07-14 02:36:53 +0000",
-      "minecraft:frozen_peaks": "2024-07-24 02:19:46 +0000",
+      "minecraft:birch_forest": "2024-07-24 05:53:37 +0000",
       "minecraft:plains": "2024-07-14 02:26:29 +0000"
     },
     "done": false
@@ -1525,6 +1529,7 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:cow": "2024-07-20 08:16:02 +0000",
+      "minecraft:wolf": "2024-07-24 07:12:42 +0000",
       "minecraft:sheep": "2024-07-20 08:30:32 +0000"
     },
     "done": false
@@ -2568,6 +2573,60 @@
       "has_iron_nugget": "2024-07-24 02:37:31 +0000"
     },
     "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2024-07-24 06:04:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2024-07-24 06:04:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2024-07-24 06:04:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2024-07-24 06:04:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/revaulting": {
+    "criteria": {
+      "revaulting": "2024-07-24 06:19:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2024-07-24 06:19:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2024-07-24 06:19:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-07-24 07:12:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:woods": "2024-07-24 07:12:01 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3953
 }
