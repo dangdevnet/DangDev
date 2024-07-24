@@ -1226,7 +1226,9 @@
       "minecraft:witch": "2024-07-22 17:20:57 +0000",
       "minecraft:ravager": "2024-07-22 20:11:24 +0000",
       "minecraft:ghast": "2024-07-24 15:27:45 +0000",
+      "minecraft:hoglin": "2024-07-24 16:29:17 +0000",
       "minecraft:cave_spider": "2024-07-19 14:42:31 +0000",
+      "minecraft:piglin": "2024-07-24 16:29:12 +0000",
       "minecraft:vindicator": "2024-07-22 19:52:00 +0000",
       "minecraft:breeze": "2024-07-23 15:15:46 +0000",
       "minecraft:enderman": "2024-07-22 17:02:27 +0000",
@@ -2347,6 +2349,7 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2024-07-24 16:21:16 +0000",
       "minecraft:nether_wastes": "2024-07-21 08:26:30 +0000",
       "minecraft:soul_sand_valley": "2024-07-21 08:25:51 +0000",
       "minecraft:basalt_deltas": "2024-07-22 16:17:00 +0000"
@@ -2948,6 +2951,12 @@
     },
     "done": true
   },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2024-07-24 15:30:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
       "blaze_rod": "2024-07-24 15:30:18 +0000"
@@ -2960,15 +2969,63 @@
     },
     "done": true
   },
-  "minecraft:nether/find_fortress": {
-    "criteria": {
-      "fortress": "2024-07-24 15:30:15 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/brewing/brewing_stand": {
     "criteria": {
       "has_blaze_rod": "2024-07-24 15:30:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-07-24 16:24:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-07-24 16:24:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2024-07-24 16:24:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-07-24 16:24:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-07-24 16:24:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-07-24 16:24:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-07-24 16:24:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2024-07-24 16:21:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-07-24 16:24:33 +0000"
     },
     "done": true
   },
