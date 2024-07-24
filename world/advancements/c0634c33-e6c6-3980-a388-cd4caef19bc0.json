@@ -1219,11 +1219,13 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-07-21 07:23:53 +0000",
+      "minecraft:blaze": "2024-07-24 15:29:26 +0000",
       "minecraft:skeleton": "2024-07-14 02:50:04 +0000",
       "minecraft:phantom": "2024-07-23 17:23:25 +0000",
       "minecraft:zombified_piglin": "2024-07-21 20:32:16 +0000",
       "minecraft:witch": "2024-07-22 17:20:57 +0000",
       "minecraft:ravager": "2024-07-22 20:11:24 +0000",
+      "minecraft:ghast": "2024-07-24 15:27:45 +0000",
       "minecraft:cave_spider": "2024-07-19 14:42:31 +0000",
       "minecraft:vindicator": "2024-07-22 19:52:00 +0000",
       "minecraft:breeze": "2024-07-23 15:15:46 +0000",
@@ -2943,6 +2945,30 @@
   "minecraft:recipes/redstone/cherry_door": {
     "criteria": {
       "has_planks": "2024-07-23 19:11:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2024-07-24 15:30:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2024-07-24 15:30:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2024-07-24 15:30:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2024-07-24 15:30:18 +0000"
     },
     "done": true
   },
