@@ -1,53 +1,287 @@
-[00:02:50] [Thread-6/INFO]: send keep alive
-[00:06:51] [Thread-6/INFO]: send keep alive
-[00:10:51] [Thread-6/INFO]: send keep alive
-[00:14:51] [Thread-6/INFO]: send keep alive
-[00:18:51] [Thread-6/INFO]: send keep alive
-[00:22:52] [Thread-6/INFO]: send keep alive
-[00:26:52] [Thread-6/INFO]: send keep alive
-[00:30:52] [Thread-6/INFO]: send keep alive
-[00:34:52] [Thread-6/INFO]: send keep alive
-[00:38:53] [Thread-6/INFO]: send keep alive
-[00:42:53] [Thread-6/INFO]: send keep alive
-[00:46:53] [Thread-6/INFO]: send keep alive
-[00:50:53] [Thread-6/INFO]: send keep alive
-[00:54:54] [Thread-6/INFO]: send keep alive
-[00:58:54] [Thread-6/INFO]: send keep alive
-[01:02:54] [Thread-6/INFO]: send keep alive
-[01:06:54] [Thread-6/INFO]: send keep alive
-[01:10:55] [Thread-6/INFO]: send keep alive
-[01:14:55] [Thread-6/INFO]: send keep alive
-[01:18:55] [Thread-6/INFO]: send keep alive
-[01:22:55] [Thread-6/INFO]: send keep alive
-[01:26:55] [Thread-6/INFO]: send keep alive
-[01:30:56] [Thread-6/INFO]: send keep alive
-[01:34:56] [Thread-6/INFO]: send keep alive
-[01:38:56] [Thread-6/INFO]: send keep alive
-[01:42:56] [Thread-6/INFO]: send keep alive
-[01:46:57] [Thread-6/INFO]: send keep alive
-[01:50:57] [Thread-6/INFO]: send keep alive
-[01:54:25] [Server thread/INFO]: [Server] Server ShutDown in: 10
-[01:54:30] [Server thread/INFO]: [Server] Server ShutDown in: 5
-[01:54:32] [Server thread/INFO]: [Server] Server ShutDown in: 3
-[01:54:33] [Server thread/INFO]: [Server] Server ShutDown in: 2
-[01:54:34] [Server thread/INFO]: [Server] Server ShutDown in: 1
-[01:54:36] [Server thread/INFO]: Stopping server
-[01:54:36] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
-[01:54:36] [Server thread/INFO]: [ShutDown] Disabling ShutDown v1.12.6
-[01:54:36] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.3.1
-[01:54:36] [Server thread/INFO]: [TAB] Disabling TAB v4.1.6
-[01:54:36] [Server thread/INFO]: [TAB] Disabled in 0ms
-[01:54:36] [Server thread/INFO]: [StartupCommands] Disabling StartupCommands v0.0.6
-[01:54:36] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.1
-[01:54:36] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[01:54:36] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.1
-[01:54:36] [Server thread/INFO]: Saving players
-[01:54:36] [Server thread/INFO]: Saving worlds
-[01:54:36] [Thread-6/INFO]: control channel shutdown
-[01:54:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:54:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[01:54:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[01:54:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:54:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:54:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:54:36] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:56:54] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:56:56] [ServerMain/INFO]: Loaded 1290 recipes
+[01:56:57] [Server thread/INFO]: Starting minecraft server version 1.21
+[01:56:57] [Server thread/INFO]: Loading properties
+[01:56:58] [Server thread/INFO]: This server is running CraftBukkit version 4263-Spigot-491f367-bed1e3f (MC: 1.21) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[01:56:58] [Server thread/INFO]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
+[01:56:58] [Server thread/INFO]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
+[01:56:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:56:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:56:59] [Server thread/INFO]: Debug logging is disabled
+[01:56:59] [Server thread/INFO]: Default game type: SURVIVAL
+[01:56:59] [Server thread/INFO]: Generating keypair
+[01:56:59] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:26786
+[01:56:59] [Server thread/INFO]: Using epoll channel type
+[01:56:59] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[01:57:10] [Server thread/WARN]: Legacy plugin StartupCommands v0.0.6 does not specify an api-version.
+[01:57:10] [Server thread/WARN]: Legacy plugin ShutDown v1.12.6 does not specify an api-version.
+[01:57:10] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v7.1
+[01:57:10] [Server thread/INFO]: [StartupCommands] Loading StartupCommands v0.0.6
+[01:57:10] [Server thread/INFO]: [TAB] Loading TAB v4.1.6
+[01:57:10] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.3.1
+[01:57:10] [Server thread/INFO]: [ShutDown] Loading ShutDown v1.12.6
+[01:57:10] [Server thread/INFO]: [playit-gg] Loading playit-gg v0.1.4
+[01:57:10] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.3.1
+[01:57:12] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.21[32;1m.[0;39m
+[01:57:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:57:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:57:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:57:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:57:14] [Server thread/INFO]: Preparing level "world"
+[01:57:14] [Server thread/INFO]: -------- World Settings For [world] --------
+[01:57:14] [Server thread/INFO]: View Distance: 10
+[01:57:14] [Server thread/INFO]: Simulation Distance: 10
+[01:57:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:57:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:57:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:57:14] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01:57:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:57:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:57:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:57:14] [Server thread/INFO]: Mob Spawn Range: 6
+[01:57:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01:57:14] [Server thread/INFO]: Max TNT Explosions: 100
+[01:57:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:57:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[01:57:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[01:57:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[01:57:14] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[01:57:14] [Server thread/INFO]: View Distance: 10
+[01:57:14] [Server thread/INFO]: Simulation Distance: 10
+[01:57:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:57:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:57:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:57:14] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01:57:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:57:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:57:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:57:14] [Server thread/INFO]: Mob Spawn Range: 6
+[01:57:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01:57:14] [Server thread/INFO]: Max TNT Explosions: 100
+[01:57:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:57:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[01:57:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[01:57:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[01:57:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[01:57:27] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[01:57:27] [Server thread/INFO]: View Distance: 10
+[01:57:27] [Server thread/INFO]: Simulation Distance: 10
+[01:57:27] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:57:27] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:57:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:57:27] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01:57:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:57:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:57:27] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:57:27] [Server thread/INFO]: Mob Spawn Range: 6
+[01:57:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01:57:27] [Server thread/INFO]: Max TNT Explosions: 100
+[01:57:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:57:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:57:27] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:57:27] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:57:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:57:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:57:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:57:27] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:57:27] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:57:27] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:57:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:57:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:57:27] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:57:27] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:57:27] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:57:27] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:57:27] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:57:27] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[01:57:27] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[01:57:27] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[01:57:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[01:57:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[01:57:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[01:57:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:57:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:57:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:57:28] [Server thread/INFO]: Time elapsed: 959 ms
+[01:57:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:57:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:57:28] [Server thread/INFO]: Time elapsed: 291 ms
+[01:57:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:57:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:57:29] [Server thread/INFO]: Time elapsed: 252 ms
+[01:57:29] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.1
+[01:57:29] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[01:57:29] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.1
+[01:57:29] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[01:57:29] [Server thread/INFO]: [StartupCommands] Enabling StartupCommands v0.0.6
+[01:57:29] [Server thread/INFO]: Queuing 1 startup command.
+[01:57:29] [Server thread/INFO]: [TAB] Enabling TAB v4.1.6
+[01:57:29] [Server thread/INFO]: [TAB] Loaded NMS hook in 162ms
+[01:57:30] [Server thread/INFO]: [TAB] Enabled in 785ms
+[01:57:30] [Server thread/INFO]: [ShutDown] Enabling ShutDown v1.12.6
+[01:57:30] [Server thread/INFO]: [ShutDown]  - - - - - - - - - - - - - - - - - - - - - - - 
+[01:57:30] [Server thread/INFO]: [ShutDown]  Plugin active!
+[01:57:30] [Server thread/INFO]: [ShutDown]  Author: Flubio
+[01:57:30] [Server thread/INFO]: [ShutDown]  ShutDown v.1.12.6
+[01:57:30] [Server thread/INFO]: [ShutDown]  - - - - - - - - - - - - - - - - - - - - - - - 
+[01:57:30] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[01:57:32] [Thread-7/INFO]: secret key found, checking
+[01:57:32] [Thread-7/INFO]: check secret
+[01:57:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:57:32] [Server thread/INFO]: Done (18.333s)! For help, type "help"
+[01:57:32] [Server thread/INFO]: [StartupCommands] Executing command: shutdown 18000
+[01:57:32] [Server thread/INFO]: [ShutDown] Server is stopping in 18000 seconds
+[01:57:32] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[01:57:32] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[01:57:32] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[01:57:32] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[01:57:32] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[01:57:32] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[01:57:32] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[01:57:32] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.3.1[0;39m
+[01:57:32] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m83dff56[0;39m
+[01:57:32] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[01:57:32] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[01:57:33] [Thread-7/INFO]: found minecraft java tunnel: telephone-refrigerator.joinmc.link
+[01:57:33] [Thread-7/INFO]: keys and tunnel setup
+[01:57:33] [Thread-7/INFO]: playit.gg: tunnel setup
+[01:57:33] [Thread-7/INFO]: playit.gg: telephone-refrigerator.joinmc.link
+[01:57:33] [Thread-7/WARN]: Got IO error working with :control.playit.gg/2602:fbaf:848:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[01:57:34] [Thread-7/INFO]: request queued, waiting 1 second before resend
+[01:57:34] [Server thread/INFO]: [Server] The Server is stopping in 18000 seconds!
+[01:57:35] [Thread-7/INFO]: request queued, waiting 1 second before resend
+[02:01:36] [Thread-7/INFO]: send keep alive
+[02:05:36] [Thread-7/INFO]: send keep alive
+[02:09:36] [Thread-7/INFO]: send keep alive
+[02:13:36] [Thread-7/INFO]: send keep alive
+[02:17:37] [Thread-7/INFO]: send keep alive
+[02:21:37] [Thread-7/INFO]: send keep alive
+[02:25:37] [Thread-7/INFO]: send keep alive
+[02:29:37] [Thread-7/INFO]: send keep alive
+[02:33:38] [Thread-7/INFO]: send keep alive
+[02:37:38] [Thread-7/INFO]: send keep alive
+[02:41:38] [Thread-7/INFO]: send keep alive
+[02:45:38] [Thread-7/INFO]: send keep alive
+[02:49:38] [Thread-7/INFO]: send keep alive
+[02:53:39] [Thread-7/INFO]: send keep alive
+[02:57:39] [Thread-7/INFO]: send keep alive
+[03:01:39] [Thread-7/INFO]: send keep alive
+[03:05:39] [Thread-7/INFO]: send keep alive
+[03:09:40] [Thread-7/INFO]: send keep alive
+[03:13:40] [Thread-7/INFO]: send keep alive
+[03:17:40] [Thread-7/INFO]: send keep alive
+[03:21:40] [Thread-7/INFO]: send keep alive
+[03:25:40] [Thread-7/INFO]: send keep alive
+[03:29:41] [Thread-7/INFO]: send keep alive
+[03:33:41] [Thread-7/INFO]: send keep alive
+[03:37:41] [Thread-7/INFO]: send keep alive
+[03:41:41] [Thread-7/INFO]: send keep alive
+[03:45:42] [Thread-7/INFO]: send keep alive
+[03:49:42] [Thread-7/INFO]: send keep alive
+[03:53:42] [Thread-7/INFO]: send keep alive
+[03:57:42] [Thread-7/INFO]: send keep alive
+[04:01:42] [Thread-7/INFO]: send keep alive
+[04:05:43] [Thread-7/INFO]: send keep alive
+[04:09:43] [Thread-7/INFO]: send keep alive
+[04:13:43] [Thread-7/INFO]: send keep alive
+[04:17:43] [Thread-7/INFO]: send keep alive
+[04:21:44] [Thread-7/INFO]: send keep alive
+[04:25:44] [Thread-7/INFO]: send keep alive
+[04:29:44] [Thread-7/INFO]: send keep alive
+[04:33:44] [Thread-7/INFO]: send keep alive
+[04:37:44] [Thread-7/INFO]: send keep alive
+[04:41:45] [Thread-7/INFO]: send keep alive
+[04:45:45] [Thread-7/INFO]: send keep alive
+[04:49:45] [Thread-7/INFO]: send keep alive
+[04:53:45] [Thread-7/INFO]: send keep alive
+[04:57:46] [Thread-7/INFO]: send keep alive
+[05:01:46] [Thread-7/INFO]: send keep alive
+[05:05:46] [Thread-7/INFO]: send keep alive
+[05:09:46] [Thread-7/INFO]: send keep alive
+[05:13:46] [Thread-7/INFO]: send keep alive
+[05:17:47] [Thread-7/INFO]: send keep alive
+[05:21:47] [Thread-7/INFO]: send keep alive
+[05:25:47] [Thread-7/INFO]: send keep alive
+[05:29:47] [Thread-7/INFO]: send keep alive
+[05:33:48] [Thread-7/INFO]: send keep alive
+[05:37:48] [Thread-7/INFO]: send keep alive
+[05:41:48] [Thread-7/INFO]: send keep alive
+[05:45:48] [Thread-7/INFO]: send keep alive
+[05:49:48] [Thread-7/INFO]: send keep alive
+[05:53:49] [Thread-7/INFO]: send keep alive
+[05:57:49] [Thread-7/INFO]: send keep alive
+[06:01:49] [Thread-7/INFO]: send keep alive
+[06:05:49] [Thread-7/INFO]: send keep alive
+[06:09:49] [Thread-7/INFO]: send keep alive
+[06:13:50] [Thread-7/INFO]: send keep alive
+[06:17:50] [Thread-7/INFO]: send keep alive
+[06:21:50] [Thread-7/INFO]: send keep alive
+[06:25:50] [Thread-7/INFO]: send keep alive
+[06:29:51] [Thread-7/INFO]: send keep alive
+[06:33:51] [Thread-7/INFO]: send keep alive
+[06:37:51] [Thread-7/INFO]: send keep alive
+[06:41:51] [Thread-7/INFO]: send keep alive
+[06:45:51] [Thread-7/INFO]: send keep alive
+[06:49:52] [Thread-7/INFO]: send keep alive
+[06:53:52] [Thread-7/INFO]: send keep alive
+[06:57:22] [Server thread/INFO]: [Server] Server ShutDown in: 10
+[06:57:27] [Server thread/INFO]: [Server] Server ShutDown in: 5
+[06:57:29] [Server thread/INFO]: [Server] Server ShutDown in: 3
+[06:57:30] [Server thread/INFO]: [Server] Server ShutDown in: 2
+[06:57:31] [Server thread/INFO]: [Server] Server ShutDown in: 1
+[06:57:32] [Server thread/INFO]: Stopping server
+[06:57:32] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[06:57:32] [Server thread/INFO]: [ShutDown] Disabling ShutDown v1.12.6
+[06:57:32] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.3.1
+[06:57:32] [Server thread/INFO]: [TAB] Disabling TAB v4.1.6
+[06:57:32] [Server thread/INFO]: [TAB] Disabled in 0ms
+[06:57:32] [Server thread/INFO]: [StartupCommands] Disabling StartupCommands v0.0.6
+[06:57:32] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.1
+[06:57:32] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[06:57:32] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.1
+[06:57:32] [Server thread/INFO]: Saving players
+[06:57:33] [Server thread/INFO]: Saving worlds
+[06:57:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:57:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[06:57:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[06:57:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:57:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:57:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:57:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
