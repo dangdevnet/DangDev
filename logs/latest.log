@@ -1,64 +1,344 @@
-[00:01:52] [Thread-6/INFO]: send keep alive
-[00:05:52] [Thread-6/INFO]: send keep alive
-[00:09:52] [Thread-6/INFO]: send keep alive
-[00:13:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2780ms or 55 ticks behind
-[00:13:53] [Thread-6/INFO]: send keep alive
-[00:17:53] [Thread-6/INFO]: send keep alive
-[00:21:53] [Thread-6/INFO]: send keep alive
-[00:23:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4422ms or 88 ticks behind
-[00:25:53] [Thread-6/INFO]: send keep alive
-[00:28:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2845ms or 56 ticks behind
-[00:29:54] [Thread-6/INFO]: send keep alive
-[00:33:54] [Thread-6/INFO]: send keep alive
-[00:33:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3178ms or 63 ticks behind
-[00:37:54] [Thread-6/INFO]: send keep alive
-[00:38:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3799ms or 75 ticks behind
-[00:41:54] [Thread-6/INFO]: send keep alive
-[00:44:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2762ms or 55 ticks behind
-[00:45:54] [Thread-6/INFO]: send keep alive
-[00:49:55] [Thread-6/INFO]: send keep alive
-[00:53:55] [Thread-6/INFO]: send keep alive
-[00:54:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4500ms or 90 ticks behind
-[00:57:55] [Thread-6/INFO]: send keep alive
-[00:59:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4069ms or 81 ticks behind
-[01:01:55] [Thread-6/INFO]: send keep alive
-[01:05:56] [Thread-6/INFO]: send keep alive
-[01:09:56] [Thread-6/INFO]: send keep alive
-[01:13:56] [Thread-6/INFO]: send keep alive
-[01:17:56] [Thread-6/INFO]: send keep alive
-[01:21:57] [Thread-6/INFO]: send keep alive
-[01:24:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3001ms or 60 ticks behind
-[01:25:57] [Thread-6/INFO]: send keep alive
-[01:29:57] [Thread-6/INFO]: send keep alive
-[01:30:09] [Thread-6/INFO]: send keep alive
-[01:34:09] [Thread-6/INFO]: send keep alive
-[01:38:10] [Thread-6/INFO]: send keep alive
-[01:39:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2556ms or 51 ticks behind
-[01:42:10] [Thread-6/INFO]: send keep alive
-[01:46:11] [Thread-6/INFO]: send keep alive
-[01:46:23] [Thread-6/INFO]: send keep alive
-[01:50:23] [Thread-6/INFO]: send keep alive
-[01:54:05] [Server thread/INFO]: [Server] Server ShutDown in: 10
-[01:54:10] [Server thread/INFO]: [Server] Server ShutDown in: 5
-[01:54:12] [Server thread/INFO]: [Server] Server ShutDown in: 3
-[01:54:13] [Server thread/INFO]: [Server] Server ShutDown in: 2
-[01:54:14] [Server thread/INFO]: [Server] Server ShutDown in: 1
-[01:54:17] [Server thread/INFO]: Stopping server
-[01:54:17] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
-[01:54:17] [Server thread/INFO]: [ShutDown] Disabling ShutDown v1.12.6
-[01:54:17] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.0
-[01:54:17] [Server thread/INFO]: [TAB] Disabling TAB v4.1.6
-[01:54:17] [Server thread/INFO]: [TAB] Disabled in 1ms
-[01:54:17] [Server thread/INFO]: [StartupCommands] Disabling StartupCommands v0.0.6
-[01:54:17] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.1
-[01:54:17] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[01:54:17] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.1
-[01:54:17] [Server thread/INFO]: Saving players
-[01:54:17] [Server thread/INFO]: Saving worlds
-[01:54:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:54:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[01:54:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[01:54:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:54:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:54:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:54:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:56:38] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:56:41] [ServerMain/INFO]: Loaded 1290 recipes
+[01:56:42] [Server thread/INFO]: Starting minecraft server version 1.21
+[01:56:42] [Server thread/INFO]: Loading properties
+[01:56:42] [Server thread/INFO]: This server is running CraftBukkit version 4263-Spigot-491f367-bed1e3f (MC: 1.21) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[01:56:43] [Server thread/INFO]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
+[01:56:43] [Server thread/INFO]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
+[01:56:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:56:43] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:56:43] [Server thread/INFO]: Debug logging is disabled
+[01:56:43] [Server thread/INFO]: Default game type: SURVIVAL
+[01:56:43] [Server thread/INFO]: Generating keypair
+[01:56:43] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:26786
+[01:56:44] [Server thread/INFO]: Using epoll channel type
+[01:56:44] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[01:56:55] [Server thread/WARN]: Legacy plugin StartupCommands v0.0.6 does not specify an api-version.
+[01:56:55] [Server thread/WARN]: Legacy plugin ShutDown v1.12.6 does not specify an api-version.
+[01:56:55] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v7.1
+[01:56:55] [Server thread/INFO]: [StartupCommands] Loading StartupCommands v0.0.6
+[01:56:55] [Server thread/INFO]: [TAB] Loading TAB v4.1.6
+[01:56:55] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.4.0
+[01:56:55] [Server thread/INFO]: [ShutDown] Loading ShutDown v1.12.6
+[01:56:55] [Server thread/INFO]: [playit-gg] Loading playit-gg v0.1.4
+[01:56:55] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.0
+[01:56:57] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.21[32;1m.[0;39m
+[01:56:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:56:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:56:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:56:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:56:58] [Server thread/INFO]: Preparing level "world"
+[01:56:58] [Server thread/INFO]: -------- World Settings For [world] --------
+[01:56:58] [Server thread/INFO]: View Distance: 10
+[01:56:58] [Server thread/INFO]: Simulation Distance: 10
+[01:56:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:56:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:56:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:56:58] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01:56:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:56:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:56:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:56:58] [Server thread/INFO]: Mob Spawn Range: 6
+[01:56:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01:56:58] [Server thread/INFO]: Max TNT Explosions: 100
+[01:56:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:56:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:56:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:56:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:56:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:56:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:56:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:56:58] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:56:58] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:56:58] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:56:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:56:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:56:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:56:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:56:58] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:56:58] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:56:58] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:56:58] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[01:56:58] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[01:56:58] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[01:56:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[01:56:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[01:56:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[01:56:59] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[01:56:59] [Server thread/INFO]: View Distance: 10
+[01:56:59] [Server thread/INFO]: Simulation Distance: 10
+[01:56:59] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:56:59] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:56:59] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:56:59] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01:56:59] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:56:59] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:56:59] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:56:59] [Server thread/INFO]: Mob Spawn Range: 6
+[01:56:59] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01:56:59] [Server thread/INFO]: Max TNT Explosions: 100
+[01:56:59] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:56:59] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:56:59] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:56:59] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:56:59] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:56:59] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:56:59] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:56:59] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:56:59] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:56:59] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:56:59] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:56:59] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:56:59] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:56:59] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:56:59] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:56:59] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:56:59] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:56:59] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[01:56:59] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[01:56:59] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[01:56:59] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[01:56:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[01:56:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[01:57:11] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[01:57:11] [Server thread/INFO]: View Distance: 10
+[01:57:11] [Server thread/INFO]: Simulation Distance: 10
+[01:57:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:57:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:57:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:57:11] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01:57:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:57:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:57:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:57:11] [Server thread/INFO]: Mob Spawn Range: 6
+[01:57:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01:57:11] [Server thread/INFO]: Max TNT Explosions: 100
+[01:57:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:57:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:57:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:57:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:57:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:57:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:57:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:57:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:57:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:57:11] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:57:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:57:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:57:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:57:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:57:11] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:57:11] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:57:11] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:57:11] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[01:57:11] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[01:57:11] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[01:57:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[01:57:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[01:57:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[01:57:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:57:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:57:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:57:12] [Worker-Main-1/INFO]: Preparing spawn area: 53%
+[01:57:12] [Server thread/INFO]: Time elapsed: 1162 ms
+[01:57:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:57:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:57:13] [Server thread/INFO]: Time elapsed: 482 ms
+[01:57:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:57:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:57:13] [Server thread/INFO]: Time elapsed: 248 ms
+[01:57:13] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.1
+[01:57:13] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[01:57:13] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.1
+[01:57:13] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[01:57:13] [Server thread/INFO]: [StartupCommands] Enabling StartupCommands v0.0.6
+[01:57:13] [Server thread/INFO]: Queuing 1 startup command.
+[01:57:13] [Server thread/INFO]: [TAB] Enabling TAB v4.1.6
+[01:57:13] [Server thread/INFO]: [TAB] Loaded NMS hook in 159ms
+[01:57:14] [Server thread/INFO]: [TAB] Enabled in 759ms
+[01:57:14] [Server thread/INFO]: [ShutDown] Enabling ShutDown v1.12.6
+[01:57:14] [Server thread/INFO]: [ShutDown]  - - - - - - - - - - - - - - - - - - - - - - - 
+[01:57:14] [Server thread/INFO]: [ShutDown]  Plugin active!
+[01:57:14] [Server thread/INFO]: [ShutDown]  Author: Flubio
+[01:57:14] [Server thread/INFO]: [ShutDown]  ShutDown v.1.12.6
+[01:57:14] [Server thread/INFO]: [ShutDown]  - - - - - - - - - - - - - - - - - - - - - - - 
+[01:57:14] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[01:57:16] [Thread-7/INFO]: secret key found, checking
+[01:57:16] [Thread-7/INFO]: check secret
+[01:57:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:57:16] [Server thread/INFO]: Done (17.532s)! For help, type "help"
+[01:57:16] [Server thread/INFO]: [StartupCommands] Executing command: shutdown 18000
+[01:57:16] [Server thread/INFO]: [ShutDown] Server is stopping in 18000 seconds
+[01:57:16] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[01:57:16] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[01:57:16] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[01:57:16] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[01:57:16] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[01:57:16] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[01:57:16] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[01:57:16] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.4.0[0;39m
+[01:57:16] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m7837da9[0;39m
+[01:57:16] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[01:57:16] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[01:57:17] [Thread-7/INFO]: found minecraft java tunnel: telephone-refrigerator.joinmc.link
+[01:57:17] [Thread-7/INFO]: keys and tunnel setup
+[01:57:17] [Thread-7/INFO]: playit.gg: tunnel setup
+[01:57:17] [Thread-7/INFO]: playit.gg: telephone-refrigerator.joinmc.link
+[01:57:17] [Thread-7/WARN]: Got IO error working with :control.playit.gg/2602:fbaf:848:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[01:57:18] [Thread-7/INFO]: request queued, waiting 1 second before resend
+[01:57:19] [Thread-7/INFO]: request queued, waiting 1 second before resend
+[01:57:21] [Server thread/INFO]: [Server] The Server is stopping in 18000 seconds!
+[01:57:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4691ms or 93 ticks behind
+[02:01:20] [Thread-7/INFO]: send keep alive
+[02:01:32] [Thread-7/INFO]: send keep alive
+[02:02:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4269ms or 85 ticks behind
+[02:05:32] [Thread-7/INFO]: send keep alive
+[02:09:33] [Thread-7/INFO]: send keep alive
+[02:13:33] [Thread-7/INFO]: send keep alive
+[02:17:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2823ms or 56 ticks behind
+[02:17:33] [Thread-7/INFO]: send keep alive
+[02:21:34] [Thread-7/INFO]: send keep alive
+[02:25:34] [Thread-7/INFO]: send keep alive
+[02:27:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2942ms or 58 ticks behind
+[02:29:34] [Thread-7/INFO]: send keep alive
+[02:29:46] [Thread-7/INFO]: send keep alive
+[02:33:47] [Thread-7/INFO]: send keep alive
+[02:37:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3406ms or 68 ticks behind
+[02:37:47] [Thread-7/INFO]: send keep alive
+[02:37:59] [Thread-7/INFO]: send keep alive
+[02:42:00] [Thread-7/INFO]: send keep alive
+[02:46:00] [Thread-7/INFO]: send keep alive
+[02:50:00] [Thread-7/INFO]: send keep alive
+[02:52:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2795ms or 55 ticks behind
+[02:54:00] [Thread-7/INFO]: send keep alive
+[02:58:01] [Thread-7/INFO]: send keep alive
+[03:02:01] [Thread-7/INFO]: send keep alive
+[03:06:01] [Thread-7/INFO]: send keep alive
+[03:06:13] [Thread-7/INFO]: send keep alive
+[03:07:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3493ms or 69 ticks behind
+[03:10:14] [Thread-7/INFO]: send keep alive
+[03:12:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2521ms or 50 ticks behind
+[03:14:14] [Thread-7/INFO]: send keep alive
+[03:18:15] [Thread-7/INFO]: send keep alive
+[03:18:27] [Thread-7/INFO]: send keep alive
+[03:22:27] [Thread-7/INFO]: send keep alive
+[03:26:27] [Thread-7/INFO]: send keep alive
+[03:27:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7949ms or 158 ticks behind
+[03:30:28] [Thread-7/INFO]: send keep alive
+[03:33:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12018ms or 240 ticks behind
+[03:34:28] [Thread-7/INFO]: send keep alive
+[03:38:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23404ms or 468 ticks behind
+[03:38:29] [Thread-7/INFO]: send keep alive
+[03:42:29] [Thread-7/INFO]: send keep alive
+[03:43:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4373ms or 87 ticks behind
+[03:46:30] [Thread-7/INFO]: send keep alive
+[03:50:30] [Thread-7/INFO]: send keep alive
+[03:53:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4126ms or 82 ticks behind
+[03:54:30] [Thread-7/INFO]: send keep alive
+[03:58:31] [Thread-7/INFO]: send keep alive
+[03:58:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21121ms or 422 ticks behind
+[04:02:31] [Thread-7/INFO]: send keep alive
+[04:04:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4726ms or 94 ticks behind
+[04:06:31] [Thread-7/INFO]: send keep alive
+[04:09:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9721ms or 194 ticks behind
+[04:10:32] [Thread-7/INFO]: send keep alive
+[04:14:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6196ms or 123 ticks behind
+[04:14:32] [Thread-7/INFO]: send keep alive
+[04:18:32] [Thread-7/INFO]: send keep alive
+[04:22:33] [Thread-7/INFO]: send keep alive
+[04:24:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5524ms or 110 ticks behind
+[04:26:33] [Thread-7/INFO]: send keep alive
+[04:29:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12917ms or 258 ticks behind
+[04:30:33] [Thread-7/INFO]: send keep alive
+[04:34:34] [Thread-7/INFO]: send keep alive
+[04:34:46] [Thread-7/INFO]: send keep alive
+[04:38:46] [Thread-7/INFO]: send keep alive
+[04:39:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3506ms or 70 ticks behind
+[04:42:46] [Thread-7/INFO]: send keep alive
+[04:44:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5283ms or 105 ticks behind
+[04:46:47] [Thread-7/INFO]: send keep alive
+[04:49:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3167ms or 63 ticks behind
+[04:50:47] [Thread-7/INFO]: send keep alive
+[04:54:48] [Thread-7/INFO]: send keep alive
+[04:54:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4745ms or 94 ticks behind
+[04:58:48] [Thread-7/INFO]: send keep alive
+[04:59:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3091ms or 61 ticks behind
+[05:02:48] [Thread-7/INFO]: send keep alive
+[05:03:00] [Thread-7/INFO]: send keep alive
+[05:03:12] [Thread-7/INFO]: send keep alive
+[05:07:13] [Thread-7/INFO]: send keep alive
+[05:10:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8171ms or 163 ticks behind
+[05:11:13] [Thread-7/INFO]: send keep alive
+[05:15:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2806ms or 56 ticks behind
+[05:15:13] [Thread-7/INFO]: send keep alive
+[05:19:14] [Thread-7/INFO]: send keep alive
+[05:20:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4360ms or 87 ticks behind
+[05:23:14] [Thread-7/INFO]: send keep alive
+[05:25:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7306ms or 146 ticks behind
+[05:27:14] [Thread-7/INFO]: send keep alive
+[05:30:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4200ms or 84 ticks behind
+[05:31:15] [Thread-7/INFO]: send keep alive
+[05:35:15] [Thread-7/INFO]: send keep alive
+[05:39:15] [Thread-7/INFO]: send keep alive
+[05:39:27] [Thread-7/INFO]: send keep alive
+[05:43:28] [Thread-7/INFO]: send keep alive
+[05:45:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3280ms or 65 ticks behind
+[05:47:28] [Thread-7/INFO]: send keep alive
+[05:51:28] [Thread-7/INFO]: send keep alive
+[05:55:29] [Thread-7/INFO]: send keep alive
+[05:55:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6058ms or 121 ticks behind
+[05:59:29] [Thread-7/INFO]: send keep alive
+[05:59:41] [Thread-7/INFO]: send keep alive
+[06:00:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10906ms or 218 ticks behind
+[06:03:42] [Thread-7/INFO]: send keep alive
+[06:05:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9399ms or 187 ticks behind
+[06:07:42] [Thread-7/INFO]: send keep alive
+[06:10:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5908ms or 118 ticks behind
+[06:11:42] [Thread-7/INFO]: send keep alive
+[06:11:54] [Thread-7/INFO]: send keep alive
+[06:15:55] [Thread-7/INFO]: send keep alive
+[06:16:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4973ms or 99 ticks behind
+[06:19:55] [Thread-7/INFO]: send keep alive
+[06:20:07] [Thread-7/INFO]: send keep alive
+[06:21:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7421ms or 148 ticks behind
+[06:24:07] [Thread-7/INFO]: send keep alive
+[06:26:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4034ms or 80 ticks behind
+[06:28:08] [Thread-7/INFO]: send keep alive
+[06:31:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4039ms or 80 ticks behind
+[06:32:08] [Thread-7/INFO]: send keep alive
+[06:32:20] [Thread-7/INFO]: send keep alive
+[06:36:21] [Thread-7/INFO]: send keep alive
+[06:40:21] [Thread-7/INFO]: send keep alive
+[06:41:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2918ms or 58 ticks behind
+[06:44:21] [Thread-7/INFO]: send keep alive
+[06:46:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18375ms or 367 ticks behind
+[06:48:22] [Thread-7/INFO]: send keep alive
+[06:51:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7034ms or 140 ticks behind
+[06:52:22] [Thread-7/INFO]: send keep alive
+[06:56:22] [Thread-7/INFO]: send keep alive
+[06:56:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4223ms or 84 ticks behind
+[07:00:22] [Thread-7/INFO]: send keep alive
+[07:01:39] [Server thread/INFO]: [Server] Server ShutDown in: 10
+[07:01:44] [Server thread/INFO]: [Server] Server ShutDown in: 5
+[07:01:46] [Server thread/INFO]: [Server] Server ShutDown in: 3
+[07:01:47] [Server thread/INFO]: [Server] Server ShutDown in: 2
+[07:01:48] [Server thread/INFO]: [Server] Server ShutDown in: 1
+[07:01:59] [Server thread/INFO]: Stopping server
+[07:01:59] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[07:01:59] [Server thread/INFO]: [ShutDown] Disabling ShutDown v1.12.6
+[07:01:59] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.0
+[07:01:59] [Server thread/INFO]: [TAB] Disabling TAB v4.1.6
+[07:01:59] [Server thread/INFO]: [TAB] Disabled in 0ms
+[07:01:59] [Server thread/INFO]: [StartupCommands] Disabling StartupCommands v0.0.6
+[07:01:59] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.1
+[07:01:59] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[07:01:59] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.1
+[07:01:59] [Server thread/INFO]: Saving players
+[07:01:59] [Server thread/INFO]: Saving worlds
+[07:01:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:01:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[07:01:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[07:01:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:01:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:01:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:01:59] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
