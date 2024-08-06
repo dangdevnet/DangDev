@@ -1,380 +1,65 @@
-[16:37:06] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:37:09] [ServerMain/INFO]: Loaded 1290 recipes
-[16:37:10] [Server thread/INFO]: Starting minecraft server version 1.21
-[16:37:10] [Server thread/INFO]: Loading properties
-[16:37:10] [Server thread/INFO]: This server is running CraftBukkit version 4263-Spigot-491f367-bed1e3f (MC: 1.21) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[16:37:11] [Server thread/INFO]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
-[16:37:11] [Server thread/INFO]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
-[16:37:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:37:11] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:37:11] [Server thread/INFO]: Debug logging is disabled
-[16:37:11] [Server thread/INFO]: Default game type: SURVIVAL
-[16:37:11] [Server thread/INFO]: Generating keypair
-[16:37:11] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:26786
-[16:37:11] [Server thread/INFO]: Using epoll channel type
-[16:37:12] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[16:37:23] [Server thread/WARN]: Legacy plugin StartupCommands v0.0.6 does not specify an api-version.
-[16:37:23] [Server thread/WARN]: Legacy plugin ShutDown v1.12.6 does not specify an api-version.
-[16:37:23] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v7.1
-[16:37:23] [Server thread/INFO]: [StartupCommands] Loading StartupCommands v0.0.6
-[16:37:23] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.4.0
-[16:37:23] [Server thread/INFO]: [TAB] Loading TAB v4.1.6
-[16:37:23] [Server thread/INFO]: [ShutDown] Loading ShutDown v1.12.6
-[16:37:23] [Server thread/INFO]: [playit-gg] Loading playit-gg v0.1.4
-[16:37:23] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.0
-[16:37:25] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.21[32;1m.[0;39m
-[16:37:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:37:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:37:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:37:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:37:27] [Server thread/INFO]: Preparing level "world"
-[16:37:27] [Server thread/INFO]: -------- World Settings For [world] --------
-[16:37:27] [Server thread/INFO]: View Distance: 10
-[16:37:27] [Server thread/INFO]: Simulation Distance: 10
-[16:37:27] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:37:27] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:37:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:37:27] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[16:37:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:37:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:37:27] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:37:27] [Server thread/INFO]: Mob Spawn Range: 6
-[16:37:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[16:37:27] [Server thread/INFO]: Max TNT Explosions: 100
-[16:37:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:37:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[16:37:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[16:37:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[16:37:27] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[16:37:27] [Server thread/INFO]: View Distance: 10
-[16:37:27] [Server thread/INFO]: Simulation Distance: 10
-[16:37:27] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:37:27] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:37:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:37:27] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[16:37:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:37:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:37:27] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:37:27] [Server thread/INFO]: Mob Spawn Range: 6
-[16:37:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[16:37:27] [Server thread/INFO]: Max TNT Explosions: 100
-[16:37:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:37:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[16:37:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[16:37:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[16:37:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[16:37:40] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[16:37:40] [Server thread/INFO]: View Distance: 10
-[16:37:40] [Server thread/INFO]: Simulation Distance: 10
-[16:37:40] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:37:40] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:37:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:37:40] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[16:37:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:37:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:37:40] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:37:40] [Server thread/INFO]: Mob Spawn Range: 6
-[16:37:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[16:37:40] [Server thread/INFO]: Max TNT Explosions: 100
-[16:37:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:37:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:37:40] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:37:40] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:37:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:37:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:37:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:37:40] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:37:40] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:37:40] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:37:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:37:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:37:40] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:37:40] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:37:40] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:37:40] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:37:40] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:37:40] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[16:37:40] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[16:37:40] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[16:37:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[16:37:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[16:37:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[16:37:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:37:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:37:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:37:41] [Server thread/INFO]: Time elapsed: 1158 ms
-[16:37:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:37:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:37:42] [Server thread/INFO]: Time elapsed: 563 ms
-[16:37:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:37:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:37:42] [Server thread/INFO]: Time elapsed: 257 ms
-[16:37:42] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.1
-[16:37:42] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[16:37:42] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.1
-[16:37:42] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[16:37:42] [Server thread/INFO]: [StartupCommands] Enabling StartupCommands v0.0.6
-[16:37:42] [Server thread/INFO]: Queuing 1 startup command.
-[16:37:42] [Server thread/INFO]: [TAB] Enabling TAB v4.1.6
-[16:37:42] [Server thread/INFO]: [TAB] Loaded NMS hook in 204ms
-[16:37:43] [Server thread/INFO]: [TAB] Enabled in 843ms
-[16:37:43] [Server thread/INFO]: [ShutDown] Enabling ShutDown v1.12.6
-[16:37:43] [Server thread/INFO]: [ShutDown]  - - - - - - - - - - - - - - - - - - - - - - - 
-[16:37:43] [Server thread/INFO]: [ShutDown]  Plugin active!
-[16:37:43] [Server thread/INFO]: [ShutDown]  Author: Flubio
-[16:37:43] [Server thread/INFO]: [ShutDown]  ShutDown v.1.12.6
-[16:37:43] [Server thread/INFO]: [ShutDown]  - - - - - - - - - - - - - - - - - - - - - - - 
-[16:37:43] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
-[16:37:45] [Thread-6/INFO]: secret key found, checking
-[16:37:45] [Thread-6/INFO]: check secret
-[16:37:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:37:45] [Server thread/INFO]: Done (18.822s)! For help, type "help"
-[16:37:45] [Server thread/INFO]: [StartupCommands] Executing command: shutdown 18000
-[16:37:45] [Server thread/INFO]: [ShutDown] Server is stopping in 18000 seconds
-[16:37:46] [Craft Scheduler Thread - 2/INFO]: [SimpleTpa] There is a new update available.
-[16:37:46] [Craft Scheduler Thread - 2/INFO]: [SimpleTpa] There is a new update available:
-[16:37:46] [Craft Scheduler Thread - 2/INFO]: [SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/
-[16:37:46] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[16:37:46] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[16:37:46] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[16:37:46] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
-[16:37:46] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
-[16:37:46] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[16:37:46] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[16:37:46] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.4.0[0;39m
-[16:37:46] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m7837da9[0;39m
-[16:37:46] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[16:37:46] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[16:37:46] [Server thread/INFO]: [Server] The Server is stopping in 18000 seconds!
-[16:37:48] [Craft Scheduler Thread - 0/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mError getting Eclipse Profile[0;39m
-[16:37:50] [Thread-6/INFO]: found minecraft java tunnel: telephone-refrigerator.joinmc.link
-[16:37:50] [Thread-6/INFO]: keys and tunnel setup
-[16:37:50] [Thread-6/INFO]: playit.gg: tunnel setup
-[16:37:50] [Thread-6/INFO]: playit.gg: telephone-refrigerator.joinmc.link
-[16:37:50] [Thread-6/WARN]: Got IO error working with :control.playit.gg/2602:fbaf:848:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
-[16:37:51] [Thread-6/INFO]: request queued, waiting 1 second before resend
-[16:37:52] [Thread-6/INFO]: request queued, waiting 1 second before resend
-[16:37:53] [Thread-6/INFO]: request queued, waiting 1 second before resend
-[16:41:54] [Thread-6/INFO]: send keep alive
-[16:45:55] [Thread-6/INFO]: send keep alive
-[16:49:55] [Thread-6/INFO]: send keep alive
-[16:53:55] [Thread-6/INFO]: send keep alive
-[16:57:55] [Thread-6/INFO]: send keep alive
-[17:01:56] [Thread-6/INFO]: send keep alive
-[17:05:56] [Thread-6/INFO]: send keep alive
-[17:09:56] [Thread-6/INFO]: send keep alive
-[17:13:56] [Thread-6/INFO]: send keep alive
-[17:17:56] [Thread-6/INFO]: send keep alive
-[17:21:57] [Thread-6/INFO]: send keep alive
-[17:25:57] [Thread-6/INFO]: send keep alive
-[17:29:57] [Thread-6/INFO]: send keep alive
-[17:33:57] [Thread-6/INFO]: send keep alive
-[17:37:57] [Thread-6/INFO]: send keep alive
-[17:41:58] [Thread-6/INFO]: send keep alive
-[17:45:58] [Thread-6/INFO]: send keep alive
-[17:49:58] [Thread-6/INFO]: send keep alive
-[17:53:58] [Thread-6/INFO]: send keep alive
-[17:57:58] [Thread-6/INFO]: send keep alive
-[18:01:59] [Thread-6/INFO]: send keep alive
-[18:05:59] [Thread-6/INFO]: send keep alive
-[18:09:59] [Thread-6/INFO]: send keep alive
-[18:13:59] [Thread-6/INFO]: send keep alive
-[18:17:59] [Thread-6/INFO]: send keep alive
-[18:22:00] [Thread-6/INFO]: send keep alive
-[18:26:00] [Thread-6/INFO]: send keep alive
-[18:30:00] [Thread-6/INFO]: send keep alive
-[18:34:00] [Thread-6/INFO]: send keep alive
-[18:38:00] [Thread-6/INFO]: send keep alive
-[18:42:01] [Thread-6/INFO]: send keep alive
-[18:46:01] [Thread-6/INFO]: send keep alive
-[18:50:01] [Thread-6/INFO]: send keep alive
-[18:54:01] [Thread-6/INFO]: send keep alive
-[18:58:02] [Thread-6/INFO]: send keep alive
-[19:02:02] [Thread-6/INFO]: send keep alive
-[19:06:02] [Thread-6/INFO]: send keep alive
-[19:10:02] [Thread-6/INFO]: send keep alive
-[19:14:02] [Thread-6/INFO]: send keep alive
-[19:18:03] [Thread-6/INFO]: send keep alive
-[19:22:03] [Thread-6/INFO]: send keep alive
-[19:26:03] [Thread-6/INFO]: send keep alive
-[19:30:03] [Thread-6/INFO]: send keep alive
-[19:34:04] [Thread-6/INFO]: send keep alive
-[19:38:04] [Thread-6/INFO]: send keep alive
-[19:42:04] [Thread-6/INFO]: send keep alive
-[19:46:04] [Thread-6/INFO]: send keep alive
-[19:50:04] [Thread-6/INFO]: send keep alive
-[19:54:05] [Thread-6/INFO]: send keep alive
-[19:58:05] [Thread-6/INFO]: send keep alive
-[20:02:05] [Thread-6/INFO]: send keep alive
-[20:06:05] [Thread-6/INFO]: send keep alive
-[20:10:05] [Thread-6/INFO]: send keep alive
-[20:14:06] [Thread-6/INFO]: send keep alive
-[20:18:06] [Thread-6/INFO]: send keep alive
-[20:22:06] [Thread-6/INFO]: send keep alive
-[20:26:06] [Thread-6/INFO]: send keep alive
-[20:28:45] [Thread-6/INFO]: got new client: NewClient{connectAddr=147.185.221.18:28369, peerAddr=193.31.28.158:56458, claimAddress=209.25.142.2:43783, claimToken=[44, 0, 60, -109, -71, -35, 18, 110, -47, -63, 31, 28, -98, -36, -118, -94, -81, 124, -112, -85, 7, 102, -79, 53, -3, 0, 0, 0, 0, 0, 2, 112, -8, 0, 0, 0, 0, 0, 52, -82, 86, -122, -112, -85, 7, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 6, -25, -85, -36, 8, -33, 15, 101, 103, -59, -42, -67, -96, -76, -79, -46, -61], tunnelServerId=1, dataCenterId=36}
-[20:28:45] [Thread-6/INFO]: starting tcp tunnel for client
-[20:28:45] [Thread-6/INFO]: start connection to /209.25.142.2:43783 to claim client
-[20:28:45] [nioEventLoopGroup-2-1/INFO]: connected to tunnel server, sending claim token
-[20:28:45] [nioEventLoopGroup-2-1/INFO]: claim token sent
-[20:28:45] [nioEventLoopGroup-2-1/INFO]: connection to tunnel server has been established
-[20:28:45] [nioEventLoopGroup-2-1/INFO]: Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
-[20:28:45] [nioEventLoopGroup-2-1/INFO]: failed to get Minecraft server from Bukkit.getServer()
-[20:28:45] [nioEventLoopGroup-2-1/INFO]: connecting to minecraft server at /0.0.0.0:26786
-[20:28:45] [nioEventLoopGroup-2-2/INFO]: connected to local minecraft server
-[20:28:45] [nioEventLoopGroup-2-1/WARN]: An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[netty-buffer-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[20:30:09] [Thread-6/INFO]: send keep alive
-[20:32:35] [Thread-6/INFO]: got new client: NewClient{connectAddr=147.185.221.18:28369, peerAddr=193.31.28.158:49180, claimAddress=209.25.142.2:43783, claimToken=[44, 0, 60, -109, -71, -35, 18, 110, -47, -63, 31, 28, -98, -64, 28, -75, 10, 34, -20, -85, 7, 102, -79, 54, -29, 0, 0, 0, 0, 0, 2, 112, -8, 0, 0, 0, 0, 0, 52, -82, 86, -75, -20, -85, 7, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, -4, -5, -26, -4, 104, -81, 80, 86, -93, -24, -115, 45, -21, -32, 67, -13], tunnelServerId=1, dataCenterId=36}
-[20:32:35] [Thread-6/INFO]: starting tcp tunnel for client
-[20:32:35] [Thread-6/INFO]: start connection to /209.25.142.2:43783 to claim client
-[20:32:35] [nioEventLoopGroup-2-3/INFO]: connected to tunnel server, sending claim token
-[20:32:35] [nioEventLoopGroup-2-3/INFO]: claim token sent
-[20:32:35] [nioEventLoopGroup-2-3/INFO]: connection to tunnel server has been established
-[20:32:35] [nioEventLoopGroup-2-3/INFO]: Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
-[20:32:35] [nioEventLoopGroup-2-3/INFO]: failed to get Minecraft server from Bukkit.getServer()
-[20:32:35] [nioEventLoopGroup-2-3/INFO]: connecting to minecraft server at /0.0.0.0:26786
-[20:32:35] [nioEventLoopGroup-2-4/INFO]: connected to local minecraft server
-[20:32:35] [nioEventLoopGroup-2-3/WARN]: An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[netty-buffer-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[20:34:11] [Thread-6/INFO]: send keep alive
-[20:38:11] [Thread-6/INFO]: send keep alive
-[20:42:11] [Thread-6/INFO]: send keep alive
-[20:46:11] [Thread-6/INFO]: send keep alive
-[20:50:12] [Thread-6/INFO]: send keep alive
-[20:54:12] [Thread-6/INFO]: send keep alive
-[20:58:12] [Thread-6/INFO]: send keep alive
-[21:02:12] [Thread-6/INFO]: send keep alive
-[21:06:07] [Thread-6/INFO]: got new client: NewClient{connectAddr=147.185.221.18:28369, peerAddr=172.104.11.46:52134, claimAddress=209.25.142.2:43264, claimToken=[44, 0, 60, -109, -71, -35, 18, 110, -47, -84, 104, 11, 46, -53, -90, 103, -43, 110, 0, -87, 0, 102, -79, 62, -66, 0, 0, 0, 0, 0, 2, 112, -8, 0, 0, 0, 0, 0, 52, -82, 86, -48, 0, -87, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 32, 98, -79, 21, 102, 50, 125, 78, -13, -117, -9, -56, -105, -73, 39, 71], tunnelServerId=2, dataCenterId=3}
-[21:06:07] [Thread-6/INFO]: starting tcp tunnel for client
-[21:06:07] [Thread-6/INFO]: start connection to /209.25.142.2:43264 to claim client
-[21:06:07] [nioEventLoopGroup-2-1/INFO]: connected to tunnel server, sending claim token
-[21:06:07] [nioEventLoopGroup-2-1/INFO]: claim token sent
-[21:06:07] [nioEventLoopGroup-2-1/INFO]: connection to tunnel server has been established
-[21:06:07] [nioEventLoopGroup-2-1/INFO]: Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
-[21:06:07] [nioEventLoopGroup-2-1/INFO]: failed to get Minecraft server from Bukkit.getServer()
-[21:06:07] [nioEventLoopGroup-2-1/INFO]: connecting to minecraft server at /0.0.0.0:26786
-[21:06:07] [nioEventLoopGroup-2-2/INFO]: connected to local minecraft server
-[21:06:13] [Thread-6/INFO]: send keep alive
-[21:10:13] [Thread-6/INFO]: send keep alive
-[21:13:11] [Thread-6/INFO]: got new client: NewClient{connectAddr=23.133.216.180:56300, peerAddr=179.60.147.47:64763, claimAddress=209.25.142.2:43776, claimToken=[44, 0, 60, 23, -123, -40, -76, -37, -20, -77, 60, -109, 47, -4, -5, 31, 100, -38, 11, -85, 0, 102, -79, 64, 103, 0, 0, 0, 0, 0, 2, 112, -8, 0, 0, 0, 0, 0, 52, -82, 86, -88, 11, -85, 0, 0, 0, 0, 0, 38, 0, 0, 0, 0, 0, 0, 0, 1, 0, 9, 3, 42, -46, -47, 60, 114, -65, 11, -121, 21, -13, 97, -102, -114, 77, -121], tunnelServerId=1, dataCenterId=38}
-[21:13:11] [Thread-6/INFO]: starting tcp tunnel for client
-[21:13:11] [Thread-6/INFO]: start connection to /209.25.142.2:43776 to claim client
-[21:13:11] [nioEventLoopGroup-2-3/INFO]: connected to tunnel server, sending claim token
-[21:13:11] [nioEventLoopGroup-2-3/INFO]: claim token sent
-[21:13:11] [nioEventLoopGroup-2-3/INFO]: connection to tunnel server has been established
-[21:13:11] [nioEventLoopGroup-2-3/INFO]: Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
-[21:13:11] [nioEventLoopGroup-2-3/INFO]: failed to get Minecraft server from Bukkit.getServer()
-[21:13:11] [nioEventLoopGroup-2-3/INFO]: connecting to minecraft server at /0.0.0.0:26786
-[21:13:11] [nioEventLoopGroup-2-4/INFO]: connected to local minecraft server
-[21:14:14] [Thread-6/INFO]: send keep alive
-[21:18:04] [nioEventLoopGroup-2-3/WARN]: An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[netty-buffer-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[21:18:15] [Thread-6/INFO]: send keep alive
-[21:22:15] [Thread-6/INFO]: send keep alive
-[21:26:15] [Thread-6/INFO]: send keep alive
-[21:30:15] [Thread-6/INFO]: send keep alive
-[21:34:15] [Thread-6/INFO]: send keep alive
-[21:37:35] [Server thread/INFO]: [Server] Server ShutDown in: 10
-[21:37:40] [Server thread/INFO]: [Server] Server ShutDown in: 5
-[21:37:42] [Server thread/INFO]: [Server] Server ShutDown in: 3
-[21:37:43] [Server thread/INFO]: [Server] Server ShutDown in: 2
-[21:37:44] [Server thread/INFO]: [Server] Server ShutDown in: 1
-[21:37:46] [Server thread/INFO]: Stopping server
-[21:37:46] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
-[21:37:46] [Server thread/INFO]: [ShutDown] Disabling ShutDown v1.12.6
-[21:37:46] [Server thread/INFO]: [TAB] Disabling TAB v4.1.6
-[21:37:46] [Server thread/INFO]: [TAB] Disabled in 0ms
-[21:37:46] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.0
-[21:37:46] [Server thread/INFO]: [StartupCommands] Disabling StartupCommands v0.0.6
-[21:37:46] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.1
-[21:37:46] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[21:37:46] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.1
-[21:37:46] [Server thread/INFO]: Saving players
-[21:37:46] [Server thread/INFO]: Saving worlds
-[21:37:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:37:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:37:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[21:37:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:37:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:37:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:37:47] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:00:49] [Thread-7/INFO]: send keep alive
+[00:04:49] [Thread-7/INFO]: send keep alive
+[00:08:49] [Thread-7/INFO]: send keep alive
+[00:12:50] [Thread-7/INFO]: send keep alive
+[00:16:50] [Thread-7/INFO]: send keep alive
+[00:20:50] [Thread-7/INFO]: send keep alive
+[00:24:50] [Thread-7/INFO]: send keep alive
+[00:28:50] [Thread-7/INFO]: send keep alive
+[00:32:51] [Thread-7/INFO]: send keep alive
+[00:36:51] [Thread-7/INFO]: send keep alive
+[00:40:51] [Thread-7/INFO]: send keep alive
+[00:44:51] [Thread-7/INFO]: send keep alive
+[00:48:51] [Thread-7/INFO]: send keep alive
+[00:52:52] [Thread-7/INFO]: send keep alive
+[00:56:52] [Thread-7/INFO]: send keep alive
+[01:00:52] [Thread-7/INFO]: send keep alive
+[01:04:52] [Thread-7/INFO]: send keep alive
+[01:08:52] [Thread-7/INFO]: send keep alive
+[01:12:53] [Thread-7/INFO]: send keep alive
+[01:16:53] [Thread-7/INFO]: send keep alive
+[01:20:53] [Thread-7/INFO]: send keep alive
+[01:24:53] [Thread-7/INFO]: send keep alive
+[01:28:53] [Thread-7/INFO]: send keep alive
+[01:32:53] [Thread-7/INFO]: send keep alive
+[01:36:54] [Thread-7/INFO]: send keep alive
+[01:40:54] [Thread-7/INFO]: send keep alive
+[01:44:54] [Thread-7/INFO]: send keep alive
+[01:48:54] [Thread-7/INFO]: send keep alive
+[01:52:54] [Thread-7/INFO]: send keep alive
+[01:56:55] [Thread-7/INFO]: send keep alive
+[02:00:55] [Thread-7/INFO]: send keep alive
+[02:04:55] [Thread-7/INFO]: send keep alive
+[02:08:55] [Thread-7/INFO]: send keep alive
+[02:12:55] [Thread-7/INFO]: send keep alive
+[02:16:56] [Thread-7/INFO]: send keep alive
+[02:20:56] [Thread-7/INFO]: send keep alive
+[02:24:56] [Thread-7/INFO]: send keep alive
+[02:28:56] [Thread-7/INFO]: send keep alive
+[02:32:56] [Thread-7/INFO]: send keep alive
+[02:36:57] [Thread-7/INFO]: send keep alive
+[02:40:22] [Server thread/INFO]: [Server] Server ShutDown in: 10
+[02:40:27] [Server thread/INFO]: [Server] Server ShutDown in: 5
+[02:40:29] [Server thread/INFO]: [Server] Server ShutDown in: 3
+[02:40:30] [Server thread/INFO]: [Server] Server ShutDown in: 2
+[02:40:31] [Server thread/INFO]: [Server] Server ShutDown in: 1
+[02:40:33] [Server thread/INFO]: Stopping server
+[02:40:33] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[02:40:33] [Server thread/INFO]: [ShutDown] Disabling ShutDown v1.12.6
+[02:40:33] [Server thread/INFO]: [TAB] Disabling TAB v4.1.6
+[02:40:33] [Server thread/INFO]: [TAB] Disabled in 1ms
+[02:40:33] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.0
+[02:40:33] [Server thread/INFO]: [StartupCommands] Disabling StartupCommands v0.0.6
+[02:40:33] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.1
+[02:40:33] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[02:40:33] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.1
+[02:40:33] [Server thread/INFO]: Saving players
+[02:40:33] [Thread-7/INFO]: control channel shutdown
+[02:40:33] [Server thread/INFO]: Saving worlds
+[02:40:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:40:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[02:40:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[02:40:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:40:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:40:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:40:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
